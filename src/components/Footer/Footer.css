@@ -1,0 +1,169 @@
+footer {
+    width: 100%;
+    background: #000;
+}
+
+footer .containerr {
+    width: 90%;
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1200px;
+    display: flex;
+    border-bottom: 1px solid rgb(26, 26, 26);
+    justify-content: space-between;
+}
+
+footer .containerr .footerCard {
+    width: 100%;
+    max-width: 300px;
+}
+
+footer .containerr .footerCard h3 {
+    color: red;
+    font-size: 1.6rem
+}
+
+footer .containerr .footerCard .firstCard {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+}
+
+footer .containerr .footerCard .firstCard p {
+    color: #ccc;
+}
+
+footer .containerr .footerCard .firstCard a {
+    color: #ccc;
+    padding: 10px 0 0 0;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+}
+
+footer .containerr .footerCard .firstCard a:hover {
+    color: red;
+}
+
+footer .containerr .footerCard .firstCard .social {
+    display: flex;
+    padding: 40px 0 0 0;
+}
+
+footer .containerr .footerCard .firstCard .social i {
+    color: #ccc;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+footer .containerr .footerCard .firstCard .social i:hover {
+    color: red;
+}
+
+footer .containerr .footerCard .usefulLinks {
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .containerr .footerCard .usefulLinks a {
+    color: #ccc;
+    padding: 10px 0 0 0;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+}
+
+footer .containerr .footerCard .usefulLinks a:hover {
+    color: red;
+}
+
+footer .containerr .footerCard .subscribe {
+    padding: 40px 0 0 0;
+}
+
+footer .containerr .footerCard .subscribe .input {
+    position: relative;
+}
+
+footer .containerr .footerCard .subscribe .input input {
+    height: 44px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+footer .containerr .footerCard .subscribe .input button {
+    position: absolute;
+    top: -41%;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    z-index: 20;
+    right: -42px;
+    border-radius: 10px;
+}
+
+footer .containerr .footerCard .subscribe p {
+    color: #ccc;
+    padding: 20px 0 0 0;
+}
+
+footer .copyright p {
+    padding: 20px 0;
+    color: #ccc;
+    text-align: center;
+}
+
+footer .copyright p i {
+    color: red;
+    cursor: pointer;
+}
+
+@media(max-width: 700px) {
+    footer .containerr {
+        padding: 100px 0;
+        flex-wrap: wrap;
+    }
+
+    footer .containerr .footerCard {
+        max-width: 200px;
+    }
+
+    footer .containerr .footerCard:nth-child(3) {
+        max-width: 400px;
+        padding: 30px 0 0 0;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+    footer .containerr {
+        padding: 100px 0;
+        flex-wrap: wrap;
+    }
+
+    footer .containerr .footerCard {
+        max-width: 300px;
+    }
+
+    footer .containerr .footerCard:nth-child(3) {
+        max-width: 400px;
+        padding: 30px 0 0 0;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    footer .containerr {
+        padding: 100px 0;
+        flex-wrap: wrap;
+    }
+
+    footer .containerr .footerCard {
+        max-width: 200px;
+    }
+
+    footer .containerr .footerCard:nth-child(3) {
+        max-width: 400px;
+        padding: 30px 0 0 0;
+    }
+}

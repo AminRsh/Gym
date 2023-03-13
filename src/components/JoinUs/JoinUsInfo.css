@@ -1,0 +1,26 @@
+.joinUsInfo {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.joinUsInfo h3 {
+    color: #fff;
+    font-size: 37px;
+}
+
+.joinUsInfo p {
+    color: #fff;
+    line-height: 1.4;
+    padding: 12px 0;
+}
+
+.joinUsInfo button {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 10px 15px;
+}

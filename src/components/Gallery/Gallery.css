@@ -1,0 +1,79 @@
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .img1, .img3 {
+    width: 30%;
+    height: 500px;
+}
+
+.gallery .img2 {
+    width: 40%;
+    height: 500px;
+}
+
+.gallery .img1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img3 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img4 {
+    width: 30%;
+    height: 500px;
+}
+
+.gallery .img4 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img5 {
+    width: 40%;
+    height: 500px;
+}
+
+.gallery .img6 {
+    width: 30%;
+    height: 500px;
+}
+
+.gallery .img5 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img6 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 769px) {
+    .gallery .img1, .gallery .img2, .gallery .img3, .gallery .img4, .gallery .img5, .gallery .img6 { 
+        width: 100%;
+    } 
+}
+@media (min-width: 770px) and (max-width: 1002px) {
+    
+    .gallery .img1, .gallery .img2, .gallery .img3, .gallery .img4, .gallery .img5, .gallery .img6 { 
+        width: 50%;
+    } 
+}

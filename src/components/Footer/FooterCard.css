@@ -1,0 +1,9 @@
+.footerCard {
+    width: 100%;
+    max-width: 300px;
+}
+
+.footerCard h3{
+    color: red;
+    font-size: 1.6rem;
+}

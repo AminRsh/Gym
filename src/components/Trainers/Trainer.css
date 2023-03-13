@@ -1,0 +1,69 @@
+.trainers {
+    width: 100%;
+    background: url("../../assests/images/HeroImage.png") no-repeat center/cover;
+}
+
+.trainers .heading {
+    width: 100%;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+}
+.trainers .heading h2{
+    font-size: 2.4rem;
+    color: #fff;
+}
+.trainers .heading p{
+    font-size: 1rem;
+    color: rgb(170, 177, 183);
+}
+
+.trainers .wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+@media (min-width: 981px) and (max-width: 1324px) {
+    .trainers .wrapper {
+        flex-wrap: wrap;
+    }
+    .trainers .wrapper .trainerCard {
+        max-width: 290px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 980px) {
+    .trainers .wrapper {
+        flex-wrap: wrap;
+    }
+    .trainers .wrapper  .trainerCard {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 769px) {
+    .trainers .heading {
+        max-width: 400px;
+    }
+    .trainers .wrapper {
+        flex-direction: column;
+    }
+    .trainers .wrapper  .trainerCard {
+        margin: 0 auto;
+    }
+    .trainers .wrapper  .trainerCard  .trainerBgImage {
+        height: 500px;
+    }
+    .trainers .wrapper  .trainerCard  .trainerBgImage:hover .social {
+        background: rgba(0, 0, 0, 0.5);
+        height: 500px;
+    }
+    .trainers .wrapper  .trainerCard  .social {
+        height: 480px;
+    }
+}

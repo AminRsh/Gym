@@ -1,0 +1,48 @@
+.joinUs {
+    width: 100%;
+    display: flex;
+}
+
+.joinUs .wrap {
+    overflow: hidden;
+    width: 50%;
+}
+
+.joinUs .wrap .img1 {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    background: url('../../assests/images/JoinUs1.png') no-repeat center/cover;
+}
+
+.joinUs .wrap .img1:hover {
+    transform: scale(1.2);
+}
+
+.joinUs .wrap .img2 {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    background: url('../../assests/images/JoinUs2.png') no-repeat center/cover;
+}
+
+.joinUs .wrap .img2:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 108px) {
+    
+    .joinUs {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .joinUs .wrap {
+        width: 100%;
+    }
+}
