@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFacebook,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import './TrainerCard.css'
 
 
@@ -10,9 +10,10 @@ const TrainerCard = ({ trainerName, trainerType, trainerImg }) => {
         <div className="trainerCard">
             <div className="trainerBgImage" style={{ background: `url('${trainerImg}') no-repeat center/cover` }}>
                 <div className="social">
-                    <span href='facebook.com'><FontAwesomeIcon icon={faFacebook} color="#eee!important" size='2xl'/></span> 
-                    <span href='facebook.com'><FontAwesomeIcon icon={faTwitter} color="#eee" size='2xl'/></span> 
-                    <span href='facebook.com'><FontAwesomeIcon icon={faInstagram} color="#eee" size='2xl'/></span> 
+                    <a href="facebook.com"><i><FontAwesomeIcon icon={faFacebookF} color="#eee!important" size='xl'/></i> </a>
+                    <a href="twitter.com"><i><FontAwesomeIcon icon={faTwitter} color="#eee" size='xl'/></i> </a>
+                    <a href="instagram.com"><i><FontAwesomeIcon icon={faInstagram} color="#eee" size='xl'/></i> </a>
+                    
                 </div>
             </div>
             <h3>{trainerName}</h3>

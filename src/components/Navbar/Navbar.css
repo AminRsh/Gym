@@ -36,9 +36,9 @@ nav .wrap #burgerMenu {
     color: #fff;
 }
 
-@media (max-width: 1200px)  {
+@media (max-width: 1225px)  {
     nav .wrap {
-        max-width: 1200px;
+        max-width: 1225px;
     }
 
     nav .wrap button{
