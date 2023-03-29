@@ -8,6 +8,7 @@ const Summer = () => {
                 <h2>A BIG OFFER FOR THIS SUMMER</h2>
             </div>
             <div className='holder'>
+                
                 <button>JOIN US</button>
             </div>
         </section>

@@ -4,9 +4,9 @@
     padding: 150px 0;
 }
 .summer .heading {
-    width: 400px;
+    /* width: 400px; */
     text-align: center;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto;
 }
 
@@ -33,3 +33,13 @@
     outline: none;
 }
 
+@media(max-width: 450px) {
+    .summer .heading h2{
+        font-size: 1.2rem;
+    }
+
+    .summer button{
+        margin: 40px auto;
+        padding: 9px 25px;
+    }
+}

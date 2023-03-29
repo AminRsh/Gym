@@ -14,6 +14,9 @@
 
 .saleSection .container .wrapper {
     padding-left: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .saleSection .container .wrapper h3{
     color: #fff;
@@ -40,5 +43,24 @@
 @media(max-width: 750px) {
     .saleSection .container .wrapper {
         padding-left: 30px;
+    }
+}
+
+@media(max-width: 450px) {
+    .saleSection .container .wrapper h3{
+        font-size: 1.6rem;
+    }
+    
+    .saleSection .container .wrapper h2{
+        font-size: 3rem;
+    }
+    
+    .saleSection .container .wrapper p{
+        font-size: .8rem;
+    }
+
+    .saleSection .container .wrapper button{
+        margin: 40px auto;
+        padding: 9px 25px;
     }
 }

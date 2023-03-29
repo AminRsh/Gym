@@ -79,7 +79,7 @@
 
 @media(max-width: 568px) {
     .hero .overlay .container .heroText {
-        line-height: 1rem;
+        line-height: 2rem;
     }
     
     .hero .overlay .container .heroText h2 {

@@ -8,7 +8,7 @@ import Logo from "../../assests/images/GymLogo.png";
 
 const Navbar = () => {
 
-    const [openMenu, setOpenMenu] = useState(true);
+    const [openMenu, setOpenMenu] = useState(false);
 
     const toggleMenu = () => {
         setOpenMenu(!openMenu)
