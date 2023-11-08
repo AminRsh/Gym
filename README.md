@@ -1,3 +1,8 @@
+A local gym with a front-end built using React, React Router, and CSS. This application enables users to access information about the gym's features, pricing, and details of the coaches.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
